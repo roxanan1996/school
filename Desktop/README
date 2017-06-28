@@ -1,0 +1,16 @@
+/**
+  * Author: Roxana-Elena Nicolescu 
+  * File: README
+ **/
+
+
+
+****************************************************TEMA3 PP***************************************
+
+   * Am implementat doar functiile pana la apply_move;
+   * Harta reprezinta un triplet format din 3 liste: cartile puse in joc, OpenPaths, ClosedPaths.
+   * Move este de forma ((X, Y), Id, Rotatie) unde X si Y repr. pozitiile pe harta, Id si Rot caracteristicile unei carti de joc;
+   * Pentru available_move, verific daca pozitia este pe harta, nu e ocupata, nu e in zona din centru, iar daca e margine sa nu formeze o cale formata dintr-o carte, iar daca nu e margine, sa aiba cel putin una din pozitiile vecine ocupate de o carte.
+
+          
+
